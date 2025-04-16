@@ -1,7 +1,7 @@
-import unittest
+import pytest
 from math_utils import add, subtract, multiply
 
-class TestMathUtils(unittest.TestCase):
+class TestMathUtils(pytest.TestCase):
     def test_add(self):
         self.assertEqual(add(5, 5), 10)
         self.assertEqual(add(-1, 1), 0)
@@ -20,4 +20,4 @@ class TestMathUtils(unittest.TestCase):
             assert True
 
 if __name__ == '__main__':
-    unittest.main()
+    pytest.main()
