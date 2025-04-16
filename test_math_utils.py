@@ -1,5 +1,5 @@
 import unittest
-from math_utils import add, subtract
+from math_utils import add, subtract, vector
 
 class TestMathUtils(unittest.TestCase):
     def test_add(self):
